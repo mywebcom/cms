@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clay-model clay-version="2.0.1">
+<database-model author="" begin-script="" end-script="" id="ef1ce5:131f18a9330:-7ffd" name="dbModel" sql-dialect-id="jp.azzurri.clay.dialect.MySQL_5_0_Dialect" version="1.0">
+<schema-list>
+<schema id="1b7eeee:1322a8ef3e5:-7ffe" name="DEFAULT_SCHEMA">
+<table-list>
+<table id="1b7eeee:1322a8ef3e5:-8000" name="cms_users">
+<table-description>user authentication table</table-description>
+<column-list/>
+<primary-key id="1b7eeee:1322a8ef3e5:-7fff" name="PK_CMS_USERS"/>
+</table>
+</table-list>
+</schema>
+</schema-list>
+</database-model>
+<diagram>
+<table-figure height="151" refid="1b7eeee:1322a8ef3e5:-8000" width="203" x="78" y="97"/>
+</diagram>
+</clay-model>
