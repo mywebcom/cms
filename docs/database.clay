@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clay-model clay-version="2.0.1">
+<database-model author="" begin-script="" end-script="" id="118da51:132577117f0:-7ffa" name="database" sql-dialect-id="jp.azzurri.clay.dialect.MySQL_5_0_Dialect" version="1.0">
+<schema-list>
+<schema id="149fc60:13257f078f5:-7ffe" name="cg-cms">
+<table-list>
+<table id="149fc60:13257f078f5:-8000" name="cms_user">
+<table-description>all the current users for cms system</table-description>
+<column-list>
+<column auto-increment="true" column-size="0" decimal-digits="0" default-value="" id="149fc60:13257f078f5:-7ffb" mandatory="true" name="user_id">
+<data-type name="INT" selected-variant-pattern="INT"/>
+</column>
+<column auto-increment="false" column-size="10" decimal-digits="0" default-value="" id="149fc60:13257f078f5:-7ffa" mandatory="true" name="user_name">
+<data-type name="CHAR" selected-variant-pattern="CHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="40" decimal-digits="0" default-value="" id="149fc60:13257f078f5:-7ff9" mandatory="true" name="user_password">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="149fc60:13257f078f5:-7fff" name="PK_CMS_USER">
+<primary-key-column name="user_id"/>
+</primary-key>
+</table>
+</table-list>
+</schema>
+</schema-list>
+</database-model>
+<diagram>
+<table-figure height="85" refid="149fc60:13257f078f5:-8000" width="174" x="76" y="81"/>
+</diagram>
+</clay-model>

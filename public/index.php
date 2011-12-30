@@ -15,7 +15,6 @@ set_include_path(implode(PATH_SEPARATOR, array(
     get_include_path(),
 )));
 
-/** Crazy **/
 require_once 'App.php';
 
 /** Zend_Application */
@@ -26,5 +25,6 @@ $application = new Zend_Application(
     APPLICATION_ENV,
     APPLICATION_PATH . '/configs/application.ini'
 );
+
 $application->bootstrap()
             ->run();

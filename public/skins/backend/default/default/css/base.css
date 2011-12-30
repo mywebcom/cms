@@ -1,0 +1,27 @@
+/** reset **/
+* {
+	padding:0;
+	margin:0	
+}
+
+ul,li {list-style:none}
+
+/** init **/
+body {text-align:left}
+
+
+/** class **/
+.form li {position:relative;padding-left:95px}
+.form li label {position:absolute;left:0;top:0;display:block;width:90px;text-align:right}
+
+/** layout **/
+.container {width:980px;margin:0 auto}
+
+.one-column-page {
+	
+}
+
+/** login in **/
+#loginform {width:300px;margin:200px auto}
+#loginform li {height:25px;line-height:25px}
+#loginform h1 {text-align:center}
